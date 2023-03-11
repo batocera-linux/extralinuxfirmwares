@@ -1,0 +1,2 @@
+# firmware
+Batocera linux firmware
