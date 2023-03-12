@@ -1,2 +1,2 @@
 # firmware
-Batocera linux firmware
+Batocera extra linux firmwares
