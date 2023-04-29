@@ -1,22 +1,8 @@
-ccode=SG
-bcn_timeout=20
-kso_enable=0
-mimo_bw_cap=1
 PM=0
-nv_by_chip=16 \
-43362 0 nvram_ap6181.txt \
-43362 1 nvram_ap6210.txt \
-43430 0 nvram_ap6212.txt \
-43430 1 nvram_ap6212a.txt \
-43430 2 nvram_ap6236.txt \
-17221 6 nvram_ap6255.txt \
-17221 9 nvram_ap6256.txt \
-17200 4 nvram_ap6330.txt \
-17209 1 nvram_ap6335.txt \
-17236 1 nvram_ap6354.txt \
-17236 2 nvram_ap6356.txt \
-17205 1 nvram_bcm4335.txt \
-43340 2 nvram_ap6234.txt \
-17241 9 nvram_ap6359s.txt \
-17204 3 nvram_bcm4334.txt \
-43752 2 nvram_ap6275s.txt
+pm_in_suspend=2
+keep_alive_period=120000
+garp=1
+suspend_bcn_li_dtim=10
+wl_preinit=pm2_sleep_ret=20
+pkt_filter_del=100, 102, 103, 104, 105, 107
+pkt_filter_add=142 0 0 77 0xffffffffffffffffffffffffffffff 0x2F6465766963652F77616B6575702F
